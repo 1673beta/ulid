@@ -29,7 +29,7 @@
     "rollup-plugin-babel": "^3.0.2",
     "rollup-plugin-typescript": "^0.8.1",
     "typedoc": "^0.9.0",
-    "typescript": "^2.5.3"
+    "typescript": "5.5.4"
   },
   "scripts": {
     "ts": "./node_modules/.bin/tsc -p .",
