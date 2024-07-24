@@ -1,5 +1,5 @@
-import babel from 'rollup-plugin-babel'
-import typescript from 'rollup-plugin-typescript'
+import babel from '@rollup/plugin-babel';
+import typescript from '@rollup/plugin-typescript'
 import compiler from 'typescript'
 
 
