@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@types/node':
-        specifier: ^8.0.47
-        version: 8.10.66
+        specifier: 20.14.12
+        version: 20.14.12
       babel-core:
         specifier: ^6.26.0
         version: 6.26.3
@@ -68,8 +68,8 @@ packages:
   '@types/minimatch@2.0.29':
     resolution: {integrity: sha512-HMjwFKEsu7AWge4XGwDf+aB1LbQ+YHlRZth1YfmzXft5+5DROWamftev/ZLTtjvp3//yY4Iqc0pFQrqJwTiKYg==}
 
-  '@types/node@8.10.66':
-    resolution: {integrity: sha512-tktOkFUA4kXx2hhhrB8bIFb5TbwzS4uOhKEmwiD+NoiL0qtP2OQ9mFldbgD4dV1djrlBYP6eBuQZiWjuHUpqFw==}
+  '@types/node@20.14.12':
+    resolution: {integrity: sha512-r7wNXakLeSsGT0H1AU863vS2wa5wBOK4bWMjZz2wj+8nBx+m5PeIn0k8AloSLpRuiwdRQZwarZqHE4FNArPuJQ==}
 
   '@types/shelljs@0.7.0':
     resolution: {integrity: sha512-bR3/iwKBkUsx5O2Y5i7OBYsUK8qiAyMmMQYmEDywu5UW5tDaj4NxrVbJTBPfMXESRETK/K8g37HRbJJEouOwPQ==}
@@ -755,6 +755,9 @@ packages:
     engines: {node: '>=0.8.0'}
     hasBin: true
 
+  undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+
   universalify@0.1.2:
     resolution: {integrity: sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==}
     engines: {node: '>= 4.0.0'}
@@ -780,7 +783,7 @@ snapshots:
 
   '@types/fs-extra@4.0.0':
     dependencies:
-      '@types/node': 8.10.66
+      '@types/node': 20.14.12
 
   '@types/handlebars@4.0.31': {}
 
@@ -792,11 +795,13 @@ snapshots:
 
   '@types/minimatch@2.0.29': {}
 
-  '@types/node@8.10.66': {}
+  '@types/node@20.14.12':
+    dependencies:
+      undici-types: 5.26.5
 
   '@types/shelljs@0.7.0':
     dependencies:
-      '@types/node': 8.10.66
+      '@types/node': 20.14.12
 
   abbrev@1.0.9: {}
 
@@ -1672,6 +1677,8 @@ snapshots:
 
   uglify-js@3.19.0:
     optional: true
+
+  undici-types@5.26.5: {}
 
   universalify@0.1.2: {}
 
