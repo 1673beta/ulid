@@ -1,5 +1,5 @@
 {
-  "name": "ulidx",
+  "name": "ulid-engawa",
   "version": "2.3.1",
   "description": "A universally-unique, lexicographically-sortable, identifier generator",
   "main": "./dist/index.umd.js",
