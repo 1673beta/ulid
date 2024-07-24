@@ -30,6 +30,7 @@
     "matcha": "^0.7.0",
     "mocha": "^2.5.3",
     "rollup": "4.19.0",
+    "tsd": "^0.31.1",
     "typedoc": "0.26.5",
     "typescript": "5.5.4"
   },
@@ -37,10 +38,12 @@
     "ts": "./node_modules/.bin/tsc -p .",
     "rollup": "./node_modules/.bin/rollup -c",
     "build": "npm run ts && npm run rollup",
-    "test": "./node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- -R spec",
     "perf": "./node_modules/.bin/matcha perf.js",
     "lint": "pnpm biome lint",
-    "format": "pnpm biome format"
+    "format": "pnpm biome format",
+    "jest": "pnpm jest --coverage --detectOpenHandles",
+    "tsd": "pnpm tsd",
+    "test": "pnpm run jest"
   },
   "files": [
     "bin",
