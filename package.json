@@ -1,6 +1,6 @@
 {
-  "name": "ulid",
-  "version": "2.3.0",
+  "name": "ulidx",
+  "version": "2.3.1",
   "description": "A universally-unique, lexicographically-sortable, identifier generator",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.esm.js",
@@ -8,12 +8,12 @@
   "esnext": "./dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ulid/javascript.git"
+    "url": "git+https://github.com/1673beta/ulid.git"
   },
   "author": "Alizain Feerasta",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ulid/javascript/issues"
+    "url": "https://github.com/1673beta/ulid/issues"
   },
   "homepage": "https://github.com/ulid/javascript#readme",
   "devDependencies": {
